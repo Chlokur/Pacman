@@ -25,7 +25,7 @@ function drawBoard(alternate) {
 	ctx.lineWidth = "2";
 	ctx.beginPath();
 	
-	// UP 
+	// 1UP 
 	ctx.moveTo(0, 231);
 	ctx.lineTo(97, 231);
 	ctx.arcTo(99, 231, 99, 228, 5);
